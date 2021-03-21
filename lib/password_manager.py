@@ -1,5 +1,5 @@
-# Date: 12/28/2018
-# Author: Mohamed
+# Date: 21/03/2021
+# Author: AlexxLy
 # Description: Password manager
 
 from time import sleep
