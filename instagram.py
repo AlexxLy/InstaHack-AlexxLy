@@ -1,6 +1,6 @@
-# Date: 12/29/2018
-# Author: Mohamed
-# Description: Instagram bruter
+# Date: 21/03/2021
+# Author: AlexxLy
+# Description: Instagram bruteForce
 
 from sys import exit
 from os.path import exists
