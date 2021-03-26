@@ -79,31 +79,59 @@ C:\Users\kali\Desktop\Instagram>python3 instagram.py AlexxLy password.lst -m 0
 
 ### Si vous ne spécifiez pas un mode, alors le mode est défini à 2
 
-### ENGLISH                      ||### FRANCAIS
+### ENGLISH                     
 
-### Run                          ||### Courrir
-                                 ||
-```                              ||```                              
-[-] Wordlist: password.lst       ||[-] Liste de Mots de passe: password.lst
-[-] Username: AlexxLy            ||[-] Nom d'utilisateur: AlexxLy
-[-] Password: 272                ||[-] Mots de passe: 272
-[-] Complete: 34.80%             ||[-] Completer: 34.80%
-[-] Attempts: 212                ||[-] Essayer: 212
-[-] Browsers: 240                ||[-] Browsers: 240
-[-] Exists: True                 ||[-] Existe: OUI
-```                              ||```                              
-                                 ||
-### Stop                         ||### Arrete
-                                 ||
-```                              ||```                              
-[-] Wordlist: password.lst       ||[-] Liste de Mots de passe: password.lst
-[-] Username: AlexxLy            ||[-] Nom d'utilisateur: AlexxLy
-[-] Password: Alexx1212          ||[-] Mots de passe: Alexx1212
-[-] Complete: 86.69%             ||[-] Completer: 86.69%
-[-] Attempts: 345                ||[-] Essayer: 345
-[-] Browsers: 192                ||[-] Browsers: 192
-[-] Exists: True                 ||[-] Existe: OUI
-                                 ||
-[!] Password Found               ||[!] Mots de passe Trouver
-[+] Username: AlexxLy            ||[+] Nom d'utilisateur: AlexxLy
-[+] Password: Alexx1212          ||[+] Mots de passe: Alexx1212
+### Run                          
+                                 
+```                                                            
+[-] Wordlist: password.lst       
+[-] Username: AlexxLy            
+[-] Password: 272                
+[-] Complete: 34.80%             
+[-] Attempts: 212                
+[-] Browsers: 240                
+[-] Exists: True                 
+```                              
+                                 
+### Stop                         
+                                 
+```                                                            
+[-] Wordlist: password.lst       
+[-] Username: AlexxLy            
+[-] Password: Alexx1212          
+[-] Complete: 86.69%             
+[-] Attempts: 345                
+[-] Browsers: 192                
+[-] Exists: True                 
+                                 
+[!] Password Found               
+[+] Username: AlexxLy            
+[+] Password: Alexx1212          
+```
+||### FRANCAIS
+
+### Courrir
+
+```                              
+[-] Liste de Mots de passe: password.lst
+[-] Nom d'utilisateur: AlexxLy
+[-] Mots de passe: 272
+[-] Completer: 34.80%
+[-] Essayer: 212
+[-] Browsers: 240
+[-] Existe: OUI
+```                              
+                              
+### Arrete
+```                              
+[-] Liste de Mots de passe: password.lst
+[-] Nom d'utilisateur: AlexxLy
+[-] Mots de passe: Alexx1212
+[-] Completer: 86.69%
+[-] Essayer: 345
+[-] Browsers: 192
+[-] Existe: OUI
+
+[!] Mots de passe Trouver
+[+] Nom d'utilisateur: AlexxLy
+[+] Mots de passe: Alexx1212
