@@ -108,7 +108,7 @@ C:\Users\kali\Desktop\Instagram>python3 instagram.py AlexxLy password.lst -m 0
 [+] Username: AlexxLy            
 [+] Password: Alexx1212          
 ```
-||### FRANCAIS
+### FRANCAIS
 
 ### Courrir
 
